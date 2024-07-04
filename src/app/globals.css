@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#gradient-canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  --gradient-color-1: #233876;
+  --gradient-color-2: #09090b;
+  --gradient-color-3: #052d42;
+  --gradient-color-4: #4a044e;
+}
