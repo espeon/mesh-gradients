@@ -32,7 +32,7 @@ export default function Home() {
             <SocialPill logo={FaDiscord} at="@ameiw" link="https://discord.com/users/267121875765821440" />
           </div>
           <div className="text-lg pt-4">
-            I also have a <Link href="https://natalie.sh/blog" className="text-blue-200">blog</Link>.</div>
+            I also have a <Link href="https://natalie.sh/blog" className="text-blue-200 hover:text-blue-400 duration-200">blog</Link>.</div>
         </div>
       </div>
     </main>
