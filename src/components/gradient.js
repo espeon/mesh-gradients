@@ -888,7 +888,7 @@ const GradientReact = () => {
     if (canvasRef.current) {
       const gradient = new Gradient();
       gradient.initGradient('#gradient-canvas');
-      gradient.amp = 90;
+      gradient.amp = 360;
     }
   }, []);
 

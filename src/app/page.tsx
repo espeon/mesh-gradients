@@ -28,7 +28,7 @@ export default function Home() {
             <SocialPill logo={PiTwitterLogo} at="@ameiwi" link="https://twitter.com/ameiwi" />
             <SocialPill logo={PiTwitchLogo} at="@ameiwi" link="https://twitch.tv/ameiwi" />
             <SocialPill logo={PiGithubLogo} at="espeon" link="https://github.com/espeon" />
-            <SocialPill logo={FaBluesky} at="@natalie.sh" link="https://bsky.app/@natalie.sh" />
+            <SocialPill logo={FaBluesky} at="@natalie.sh" link="https://bsky.app/profile/natalie.sh" />
             <SocialPill logo={FaDiscord} at="@ameiw" link="https://discord.com/users/267121875765821440" />
           </div>
           <div className="text-lg pt-4">
