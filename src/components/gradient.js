@@ -888,10 +888,11 @@ const GradientReact = () => {
     if (canvasRef.current) {
       const gradient = new Gradient();
       gradient.initGradient('#gradient-canvas');
+      gradient.amp = 90;
     }
   }, []);
 
-  return <canvas id="gradient-canvas" ref={canvasRef} className='fixed left-0 top-0 bg-gray-50 bs-screen is-screen -z-10' />;
+  return <canvas id="gradient-canvas" ref={canvasRef} className='fixed left-0 top-0 bg-gray-500 bs-screen is-screen -z-10' />;
 };
 
 /*
